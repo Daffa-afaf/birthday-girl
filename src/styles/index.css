@@ -1,0 +1,9 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+@layer utilities {
+  .font-lato {
+    font-family: 'Lato', sans-serif !important;
+  }
+}
