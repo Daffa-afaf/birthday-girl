@@ -53,7 +53,7 @@ export default function LetterPage({ onComplete }: LetterPageProps) {
               animate={{ rotate: [0, -5, 5, 0] }}
               transition={{ duration: 4 + i, repeat: Infinity }}
             >
-              <img src="public\photo\flower1.jpg" alt="" className="w-full h-full object-cover opacity-60 rounded-t-full" />
+              <img src="https://images.unsplash.com/photo-1587421976536-c2de1cac8bb3?w=200" alt="" className="w-full h-full object-cover opacity-60 rounded-t-full" />
             </motion.div>
           ))}
         </div>
