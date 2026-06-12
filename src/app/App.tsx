@@ -52,12 +52,9 @@ export default function App() {
         {currentPage === 'surprise' && (
           <motion.div
             key="surprise"
-            initial={{ opacity: 0, scale: 0.9, y: 20 }} // Standar UI UX Modern: Muncul perlahan dari background dengan soft zoom-in
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            transition={{ 
-              duration: 0.9, 
-              ease: [0.16, 1, 0.3, 1] // Kurva easeOutExpro: Animasi super halus yang lambat di akhir (sinematik)
-            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
           >
             <SurprisePage />
           </motion.div>

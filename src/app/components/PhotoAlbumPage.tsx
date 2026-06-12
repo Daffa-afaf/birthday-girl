@@ -14,16 +14,15 @@ export default function PhotoAlbumPage({ onComplete }: PhotoAlbumPageProps) {
   const [isClosing, setIsClosing] = useState(false);
 
   const photos = [
-    { src: "photo/helga1.jpeg",  caption: "Wanita yang selalu membuatku tersenyum", date: "Bunga aja masih kalah cantik" },
+    { src: "photo/helga1.jpeg",  caption: "Wanita yang selalu membuatku tersenyum",  date: "Bunga aja masih kalah cantik" },
     { src: "photo/helga8.jpeg",  caption: "Foto pertama kita",                       date: "Kenangan Indah" },
-    { src: "photo/helga11.jpeg", caption: "Petualangan yang tak terlupakan",          date: "Perjalanan Bersama" },
+    { src: "photo/helga11.jpeg", caption: "Petualangan yang tak terlupakan",         date: "Perjalanan Bersama" },
     { src: "photo/helga6.jpeg",  caption: "Momen spesial kita",                      date: "Hari Yang Berkesan" },
     { src: "photo/helga7.jpeg",  caption: "Cinta yang tumbuh setiap hari",           date: "Selalu Bersamamu" },
     { src: "photo/helga4.jpeg",  caption: "Miror selfie yang lucu",                  date: "Kebahagiaanmu Kebahagiaanku" },
     { src: "photo/helga13.jpeg", caption: "Saat kita tertawa bersama",               date: "Lebarnya mulutmu selebar sabarmu hehe" },
-    { src: "photo/helga14.jpeg", caption: "Bonusss",                                 date: "MAAFF YAA WKWKWKWK" },
-    { src: "photo/helga10.jpeg", caption: "EAAAKKKKKK",                              date: "MAAF LAGIII WKWKWKWK" },
-    { src: "photo/helga9.jpeg",  caption: "Cinta yang tumbuh setiap hari",           date: "Selalu Bersamamu" },
+    { src: "photo/helga16.jpeg", caption: "Mengkreak Bersama",                       date: "Jalan gatau arah penting pulang bawa martabak" },
+    { src: "photo/helga15.jpeg", caption: "Cisss",                                   date: "Miror selfie kesekian kali" },
   ];
 
   const totalDesktopPages = Math.ceil(photos.length / 2); // 5 lembar
